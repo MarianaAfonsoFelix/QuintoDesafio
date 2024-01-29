@@ -26,7 +26,7 @@ while(sequenciaJogo)
     else
     {
         pontuacao = 0;
-        Console.WriteLine("\nPERDEUUUUUUUU!");
+        Console.WriteLine(nomeParticipante +"PERDEUUUUUUUU!");
         Console.WriteLine("\nDeseja tentar mais uma vez?");
         Console.WriteLine("1. Continuar Jogando");
         Console.WriteLine("0. Digite qualquer tecla para sair!");
@@ -43,7 +43,7 @@ while(sequenciaJogo)
         {
             pontuacao = 0;
             numeroSorteado = 0;
-            Console.WriteLine("\n Ganhoooooou!");
+            Console.WriteLine(nomeParticipante +"\n Ganhoooooou!");
         }
         else
         {
